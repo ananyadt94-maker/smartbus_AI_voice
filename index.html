@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBus Assist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>SmartBus Assist</h1>
+        <h2>Your Voice Travel Companion</h2>
+
+        <p id="welcome">
+            Welcome! Say English, Kannada or Hindi to choose your language.
+        </p>
+
+        <button id="micButton"
+                type="button"
+                aria-label="Start voice interaction">
+            🎤 Start Speaking
+        </button>
+
+        <section aria-live="polite">
+            <h3>What you said</h3>
+            <p id="output">Waiting for your voice...</p>
+        </section>
+
+        <section aria-live="polite">
+            <h3>SmartBus Assistant</h3>
+            <p id="response">
+                Welcome! Please say your preferred language.
+            </p>
+        </section>
+
+        <button id="speakButton" type="button">
+            🔊 Repeat Response
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
